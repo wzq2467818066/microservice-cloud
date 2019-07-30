@@ -6,7 +6,7 @@ spring:
 server:
   port: 4001 #端口号
 spring:
-  profiles: dev # 开发环境
+  profiles: dev #开发环境
   application:
     name: microservice-config-dev
 ---
@@ -16,4 +16,3 @@ spring:
   profiles: prod # 生产环境
   application:
     name: microservice-config-prod
-#保存时注意，选择 UTF-8 保存
